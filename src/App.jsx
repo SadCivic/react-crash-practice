@@ -50,7 +50,7 @@ const App = () => {
         <Route path='/jobs' element={<JobsPages />} />
         <Route path='/edit-job/:id' element={<EditJobPage updateJobSumit={updateJob} />} loader={jobLoader} />
         <Route path='/add-job' element={<AddJobs addJobSumit={addJob} />}/>
-        <Route path='/jobs/:id' element={<JobPage deleteJob={deleteJob} />} loader={jobLoader} />
+        {/* <Route path='/jobs/:id' element={<JobPage deleteJob={deleteJob} />} loader={jobLoader} /> */}
         <Route path='*' element={<NotFoundPage />}/>
     </Route>  
     )
