@@ -5,6 +5,7 @@ A simple Indeed-style website for multiple jobs offers following Traversary Medi
 With a bit of my own Firebase integration ;) 
 
 Here is the link for live website: https://react-crash-432d1.web.app/
+
 (tip: try using incognito mode if you encounter errors)
 
 ![react course 1](https://github.com/user-attachments/assets/10cdba44-94e2-4d8a-83c8-7a2dbb37834d)
